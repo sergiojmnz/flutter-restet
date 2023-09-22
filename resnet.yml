@@ -15,8 +15,8 @@ spec:
     spec:
       containers:
       - name: resnet-container
-        #image: gcr.io/tensorflow-serving/resnet 
-        image: docker.io/sergiojc/ensorflow-resnet:latest
+        image: gcr.io/tensorflow-serving/resnet 
+        #image: docker.io/sergiojc/ensorflow-resnet:latest
         ports:
         - containerPort: 8501
 ---
