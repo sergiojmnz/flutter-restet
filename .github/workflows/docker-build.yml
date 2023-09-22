@@ -18,6 +18,6 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t flutterresnet:latest .
+        docker build -t ensorflow-resnet:latest .
         docker tag ensorflow-resnet:latest ${{ secrets.DOCKER_USERNAME }}/ensorflow-resnet:latest
         docker push ${{ secrets.DOCKER_USERNAME }}/ensorflow-resnet:latest
