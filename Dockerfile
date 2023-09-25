@@ -17,7 +17,7 @@ RUN pip install -r requeriments.txt
 EXPOSE 80
 
 # Define environment variable
-ENV NAME World
+ENV NAME World 
 
 # Run resnet_client.py when the container launches
 CMD ["python", "resnet_client.py"]
