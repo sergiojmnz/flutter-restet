@@ -40,7 +40,7 @@ import requests
 # The server URL specifies the endpoint of your server running the ResNet
 # model with the name "resnet" and using the predict interface.
 #SERVER_URL = 'http://localhost:8500/v1/models/resnet:predict'
-SERVER_URL = 'https://resnet-service-adsoftsito.cloud.okteto.net/v1/models/resnet:predict'
+SERVER_URL = 'https://cloud.okteto.com/spaces/aiops-sergiojmnz?resourceId=96e1ebc1-50e0-44b1-a670-48e6ddee0f40'
 
 # The image URL is the location of the image we should send to the server
 IMAGE_URL = 'https://tensorflow.org/images/blogs/serving/cat.jpg'
